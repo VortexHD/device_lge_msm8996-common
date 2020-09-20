@@ -128,6 +128,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.late.sf.duration=10500000 \
     debug.sf.use_phase_offsets_as_durations=1
 
+# Adreno
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.hardware.egl=adreno \
+    ro.hardware.vulkan=adreno
+
 # HWUI
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hwui.texture_cache_size=96 \
