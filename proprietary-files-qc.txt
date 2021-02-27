@@ -269,14 +269,6 @@ vendor/lib64/libtinyxml2_1.so|56d4d5d0ea010f951de219c7b9fd2c9695a5b9d2
 -vendor/lib/hw/keystore.msm8996.so
 -vendor/lib64/hw/keystore.msm8996.so
 
-# Listen
-vendor/lib/hw/sound_trigger.primary.msm8996.so
-vendor/lib/libadpcmdec.so
-vendor/lib/libsmwrapper.so
-vendor/lib/vendor.qti.voiceprint@1.0.so
-vendor/lib64/hw/sound_trigger.primary.msm8996.so
-vendor/lib64/vendor.qti.voiceprint@1.0.so
-
 # Media -- From daisy_global_images_V11.0.17.0.QDLMIXM_20210115.0000.00_10.0_924a02b328
 lib/extractors/libmmparserextractor.so|4178c228bdb7120cfdd6fd8ea4325cad9942f702
 lib/libFileMux.so|1c713da8d18f03deb33c3211761fc07dd57d6946
