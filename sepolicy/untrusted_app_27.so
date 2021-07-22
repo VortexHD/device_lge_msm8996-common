@@ -1,0 +1,2 @@
+allow untrusted_app_27 sysfs_kgsl:file { read };
+allow untrusted_app_27 sysfs_kgsl_gpuclk:file { read };
