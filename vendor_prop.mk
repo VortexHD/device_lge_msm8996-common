@@ -206,6 +206,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.sensors.wul_delay=3000 \
     persist.sensors.onhand.en=0
 
+# Settings app
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.fflag.override.settings_network_and_internet_v2=true
+	
 # Tethering
 PRODUCT_PROPERTY_OVERRIDES += \
     net.tethering.noprovisioning=true
