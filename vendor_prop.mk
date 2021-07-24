@@ -117,7 +117,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.demo.hdmirotationlock=false \
     sdm.perf_hint_window=50 \
     persist.hwc.enable_vds=1 \
-    sdm.debug.disable_rotator_split=1
+    sdm.debug.disable_rotator_split=1 \
+    debug.hwui.renderer=skiavk
 
 # HWUI
 PRODUCT_PROPERTY_OVERRIDES += \
