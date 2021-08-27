@@ -7,6 +7,7 @@ allow system_app cnd_core_data_file:file create_file_perms;
 get_prop(system_app, vendor_cnd_vendor_prop)
 
 set_prop(system_app, camera_prop)
+set_prop(system_app, spectrum_prop)
 
 allow system_app proc_pagetypeinfo:file { read open getattr };
 allow system_app sysfs_zram:dir { search };
