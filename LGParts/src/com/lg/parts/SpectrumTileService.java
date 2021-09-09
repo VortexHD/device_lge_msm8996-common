@@ -1,4 +1,4 @@
-package org.lineageos.settings.doze;
+package com.lg.parts;
 
 import android.service.quicksettings.Tile;
 import android.service.quicksettings.TileService;

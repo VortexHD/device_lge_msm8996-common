@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.doze;
+package com.lg.parts;
 
 import android.os.Bundle;
 import org.lineageos.settings.MonetPreferenceActivity;

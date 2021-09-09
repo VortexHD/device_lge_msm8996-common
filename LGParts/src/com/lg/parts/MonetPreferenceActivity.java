@@ -1,4 +1,4 @@
-package org.lineageos.settings;
+package com.lg.parts;
 
 import android.content.res.ColorStateList;
 import android.os.Bundle;

@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.doze;
+package com.lg.parts;
 
 import android.content.Context;
 import android.content.Intent;
@@ -35,7 +35,7 @@ import static android.provider.Settings.Secure.DOZE_ENABLED;
 
 public final class Utils {
 
-    private static final String TAG = "DozeUtils";
+    private static final String TAG = "LGUtils";
     private static final boolean DEBUG = false;
 
     private static final String DOZE_INTENT = "com.android.systemui.doze.pulse";

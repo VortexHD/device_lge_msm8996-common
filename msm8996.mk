@@ -149,9 +149,9 @@ PRODUCT_PACKAGES += \
     libdisplayconfig \
     libqdMetaData.system
 
-# Doze mode
+# LGParts (Doze & Spectrum)
 PRODUCT_PACKAGES += \
-    LGDoze
+    LGParts
 
 # DRM
 PRODUCT_PACKAGES += \
