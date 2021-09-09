@@ -1,4 +1,4 @@
-package com.android.lge.spectrumprofiles;
+package org.lineageos.settings.doze;
 
 import android.service.quicksettings.Tile;
 import android.service.quicksettings.TileService;
