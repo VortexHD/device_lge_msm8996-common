@@ -18,7 +18,7 @@
 package com.lg.parts;
 
 import android.os.Bundle;
-import org.lineageos.settings.MonetPreferenceActivity;
+import com.lg.parts.MonetPreferenceActivity;
 
 public class DozeSettingsActivity extends MonetPreferenceActivity {
 
