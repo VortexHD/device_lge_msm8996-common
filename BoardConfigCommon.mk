@@ -57,6 +57,8 @@ BOARD_KERNEL_TAGS_OFFSET := 0x02000000
 BOARD_RAMDISK_OFFSET := 0x02200000
 TARGET_KERNEL_SOURCE := kernel/lge/msm8996
 
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := $(PWD)/prebuilts/gcc/linux-x86/aarch64/gcc-10.3-aarch64/bin/aarch64-none-elf-
 TARGET_KERNEL_CROSS_COMPILE_PREFIX_ARM32 := $(PWD)/prebuilts/gcc/linux-x86/arm/gcc-10.3-arm/bin/arm-none-eabi-
 
