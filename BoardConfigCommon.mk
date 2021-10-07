@@ -21,6 +21,7 @@ COMMON_PATH := device/lge/msm8996-common
 -include device/lge/common/BoardConfigCommon.mk
 
 BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 # Architecture
 TARGET_ARCH := arm64
