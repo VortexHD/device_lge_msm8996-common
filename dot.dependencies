@@ -13,9 +13,9 @@
   },
   {
     "remote": "github",
-    "repository": "vortexhd/android_kernel_lge_msm8996",
+    "repository": "stendro/msm8996_lge_kernel",
     "target_path": "kernel/lge/msm8996"
-    "branch": "11"
+    "branch": "mk2000-custom"
   },
   {
     "remote": "github",
@@ -28,5 +28,17 @@
     "repository": "lineageos/android_hardware_sony_timekeep",
     "target_path": "hardware/sony/timekeep"
     "branch": "lineage-18.1"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "vortexhdwhite/gcc-10.3-aarch64",
+    "target_path": "prebuilts/gcc/linux-x86/aarch64/gcc-10.3-aarch64"
+    "branch": "main"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "vortexhdwhite/gcc-10.3-arm",
+    "target_path": "prebuilts/gcc/linux-x86/arm/gcc-10.3-arm"
+    "branch": "main"
   }
 ]
