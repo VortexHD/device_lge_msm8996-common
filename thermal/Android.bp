@@ -1,13 +1,13 @@
 cc_binary {
-  name: "android.hardware.thermal@2.0-service.msm8996",
+  name: "android.hardware.thermal@2.0-service.8996",
   defaults: [
     "hidl_defaults",
   ],
   vendor: true,
   relative_install_path: "hw",
-  vintf_fragments: ["android.hardware.thermal@2.0-service.msm8996.xml"],
+  vintf_fragments: ["android.hardware.thermal@2.0-service.8996.xml"],
   init_rc: [
-    "android.hardware.thermal@2.0-service.msm8996.rc",
+    "android.hardware.thermal@2.0-service.8996.rc",
   ],
   srcs: [
     "service.cpp",
